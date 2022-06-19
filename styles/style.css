@@ -5,9 +5,34 @@
 }
 
 :root{
-    
+    --font-size: 27.5px;
+    --poppin-font-family: 'Poppins', sans-serif;
+    --roboto-font-family: 'Roboto', sans-serif;
+    --dark-bg-color: #242424;
 }
 
 body{
+    font-size: var(--font-size);
+    background-color: var(--dark-bg-color);
+    font-family: var(--poppin-font-family);
+}
 
+.header-container,
+.main-container,
+.footer-container {
+    min-height: 100vh;
+}
+
+.main-container{
+    background-color: aquamarine;
+}
+
+.footer-container{
+    background-color: beige;
+}
+
+
+.avater-container > img{
+    border-radius: 50%;
+    width: 70px;
 }
